@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# data/arogya.db is committed on purpose — it ships pre-seeded with demo
+# accounts (see seed_data.py) so the app has something to show right away.
+# Delete it any time to start from a blank database; it's recreated
+# automatically the next time you run app.py.
+
+uploads/*
+!uploads/.gitkeep
